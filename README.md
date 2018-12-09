@@ -22,6 +22,19 @@ svg.js库提供的foreignobject存在两个问题：
     
 ## Example
 
+        import SVG from './SVG.js'
+        
+        const draw = SVG('id');
+        const foreignObject = draw.foreignObject({
+            size:{
+                width:300,
+                height:200
+            }
+        });
+        foreignObject.appendChild('div',{
+            innerHtml:'<span>example</span>'
+        });
+
 
 
 
