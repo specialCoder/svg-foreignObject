@@ -15,15 +15,11 @@ svg.js库提供的foreignobject存在两个问题：
     
 直接使用index.js里面的代码
 
-## Start
-使用增加foreignobject功能之后的svg.js
+## Usage
 
+    //使用增加foreignObject功能之后的svg.js
     import SVG from './SVG.js'
     
-## Example
-
-        import SVG from './SVG.js'
-        
         const draw = SVG('id');
         const foreignObject = draw.foreignObject({
             size:{
