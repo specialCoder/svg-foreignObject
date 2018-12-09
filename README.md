@@ -11,7 +11,7 @@ svg.js库提供的foreignobject存在两个问题：
 ## Install
     npm install svg.js --save
 ## Download 
-    git clone 
+    git clone git@github.com:specialCoder/svg-foreignObject.git
     
 直接使用index.js里面的代码
 
